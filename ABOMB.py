@@ -667,13 +667,14 @@ def smsbom(target, color, messagesss):
 
 def usin():
     print("\n")
-    print(yellow+"\nPress"+blue+"1." +cl.yellow+"For Agreement")
-    print(yellow+"Press"+blue+"2." +cl.yellow+"For Start BOMBER")
-    print(yellow+"Press"+blue+"3." +cl.yellow+"For About")
-    print(yellow+"Press"+blue+"4." +cl.yellow+"For Exit")
+    print(yellow+"\nPress"+blue+"1." +yellow+"For Agreement")
+    print(yellow+"Press"+blue+"2." +yellow+"For Start BOMBER")
+    print(yellow+"Press"+blue+"3." +yellow+"For About")
+    print(yellow+"Press"+blue+"4." +yellow+"For Update(currently not working)") 
+    print(yellow+"Press"+blue+"5." +yellow+"For Exit")
     print("\n")
     uin=input("----->")
-    if uin == "4":
+    if uin == "5":
         print(color+"Thank You For Using"+name)
         i=0
         while i<5:
@@ -687,6 +688,9 @@ def usin():
             time.sleep(0.1)
             i=i+1
         clear()
+        exit()
+    elif uin == "4":
+        os.system("git clone https://github.com/aarinstech/ABOMB.git")
         exit()
     elif uin == "3":
         about=open('about.txt',"r")
