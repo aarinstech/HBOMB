@@ -772,10 +772,12 @@ elif target=="s":
         time.sleep(2)
         exit()
     smsbom(target, color, messagesss)
+    clear()
     print(color+"Wait for 30 Seconds")
     time.sleep(30)
     print(color+"Sent Successfully")
     time.sleep(3)
+    clear()
     exit()
 else:
     print(
