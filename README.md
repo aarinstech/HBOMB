@@ -40,6 +40,8 @@ pkg install git -y
 pkg install python -y 
 git clone https://github.com/aarinstech/ABOMB.git
 cd ABOMB
+chmod +x requirement.sh
+bash requirement.sh
 chmod +x ABOMB.py
 python ABOMB.py
 ```
