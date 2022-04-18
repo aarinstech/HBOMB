@@ -30,18 +30,18 @@ or any version greater than or equal to 3.8, this script has been tested and con
 
 Git installation methods are not universal and are likely to differ between distributions so installing Git as per the given instructions below may not work. Please check out how to install Git for your Linux distribution [here](https://git-scm.com/). Commands below provide instructions for Debian-based systems.
 
-Run these commands to clone and run ABOMB.
+Run these commands to clone and run HBOMB.
 
 #### For Termux
 
-To use the ABOMB type the following commands in Termux:
+To use the HBOMB type the following commands in Termux:
 ```shell script
 pkg install git -y 
 pkg install python -y 
-git clone https://github.com/aarinstech/ABOMB.git
-cd ABOMB
-chmod +x ABOMB.py
-python ABOMB.py
+git clone https://github.com/aarinstech/HBOMB.git
+cd HBOMB
+chmod +x HBOMB.py
+python HBOMB.py
 ```
 
 #### For Debian-based GNU/Linux distributions
@@ -49,9 +49,9 @@ python ABOMB.py
 To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
-git clone https://github.com/aarinstech/ABOMB.git
-cd ABOMB
-python ABOMB.py
+git clone https://github.com/aarinstech/HBOMB.git
+cd HBOMB
+python HBOMB.py
 ```
 
 ### Support
