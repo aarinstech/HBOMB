@@ -1,3 +1,4 @@
+<h1 align="center"> HBomb v1.1.2 </h1>
 <p align="center">A free and open-source SMS/Call bombing application</p>
 
 ## NOTE:
